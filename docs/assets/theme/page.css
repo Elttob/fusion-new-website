@@ -18,7 +18,7 @@ body {
 	background-color: var(--md-default-bg-color);
 }
 
-.md-header.md-header--shadow {
+.md-header[data-md-state=shadow] {
 	box-shadow: none !important;
 	background-color: var(--fusiondoc-bg-1-a80);
 	border-bottom: 1px solid var(--fusiondoc-stroke);

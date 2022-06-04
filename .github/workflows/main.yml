@@ -11,5 +11,5 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.x
-      - run: pip install -Iv mkdocs-material==8.3.1
+      - run: pip install -Iv mkdocs-material==8.2.1
       - run: mkdocs gh-deploy --force
